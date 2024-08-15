@@ -1,0 +1,24 @@
+*****************************************************************************************************************************
+
+1016 | Distance 
+PROBLEM - https://judge.beecrowd.com/en/problems/view/1016
+
+
+
+    #include <iostream>
+
+    using namespace std;
+    
+    int main()
+    {
+        int distance;
+        
+        cin >> distance;
+        
+        int time = distance*2;
+        
+        cout << time << " minutos" << endl;                                     
+        
+        return 0;
+    }
+
